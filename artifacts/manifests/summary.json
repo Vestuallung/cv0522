@@ -1,0 +1,76 @@
+{
+  "data_root": "/Users/verflechtung/Documents/\u603b\u7ebf\u7a0b/\u4f5c\u4e1a/\u5b66\u79d1\u5b9e\u8df5/\u671f\u672b\u62a5\u544a/OfficeHomeDataset_10072016",
+  "image_count": 15588,
+  "val_ratio": 0.1,
+  "seed": 20260522,
+  "folds": {
+    "Art": {
+      "Art": {
+        "test": 2427
+      },
+      "Clipart": {
+        "train": 3927,
+        "val": 438
+      },
+      "Product": {
+        "train": 3993,
+        "val": 446
+      },
+      "Real World": {
+        "train": 3921,
+        "val": 436
+      }
+    },
+    "Clipart": {
+      "Art": {
+        "train": 2182,
+        "val": 245
+      },
+      "Clipart": {
+        "test": 4365
+      },
+      "Product": {
+        "train": 3993,
+        "val": 446
+      },
+      "Real World": {
+        "train": 3921,
+        "val": 436
+      }
+    },
+    "Product": {
+      "Art": {
+        "train": 2182,
+        "val": 245
+      },
+      "Clipart": {
+        "train": 3927,
+        "val": 438
+      },
+      "Product": {
+        "test": 4439
+      },
+      "Real World": {
+        "train": 3921,
+        "val": 436
+      }
+    },
+    "Real World": {
+      "Art": {
+        "train": 2182,
+        "val": 245
+      },
+      "Clipart": {
+        "train": 3927,
+        "val": 438
+      },
+      "Product": {
+        "train": 3993,
+        "val": 446
+      },
+      "Real World": {
+        "test": 4357
+      }
+    }
+  }
+}
