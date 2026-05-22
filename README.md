@@ -2,7 +2,7 @@
 
 ## 训练目的
 
-本包用于在 Office-Home 上训练跨视觉风格域泛化分类模型。协议固定为 Leave-One-Domain-Out：Art、Clipart、Product、Real World 每次留一个域做最终测试域，另外三个源域内部按类别切出 `10%` 验证集选择 checkpoint。主干是 `timm` 的 `vit_base_patch16_224.augreg_in21k`，首版实验比较 ERM、RandAugment、Mixup、CORAL 四种训练策略。服务器配置默认每个实验训练 `30` 个 epoch，配置文件在 `configs/vitb_officehome.yaml`。
+本包用于在 Office-Home 上训练跨视觉风格域泛化分类模型。协议固定为 Leave-One-Domain-Out：Art、Clipart、Product、Real World 每次留一个域做最终测试域，另外三个源域内部按类别切出 `10%` 验证集选择 checkpoint。主干是 `timm` 的 `vit_base_patch16_224.augreg_in21k`，首版实验比较 ERM、RandAugment、Mixup、CORAL 四种训练策略。服务器配置默认每个实验训练 `60` 个 epoch，配置文件在 `configs/vitb_officehome.yaml`。
 
 ## 如何部署环境
 
